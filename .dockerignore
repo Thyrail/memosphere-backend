@@ -1,0 +1,29 @@
+# Node.js spezifisch
+node_modules
+npm-debug.log
+
+# Um lokale Umgebungsvariablen zu schützen
+.env
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Betriebssystem spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Editor spezifisch
+.vscode/
+.idea/
+
+# Docker spezifisch
+.dockerignore
+docker-compose.override.yml
+
+# Build-Artefakte
+dist/
+coverage/
