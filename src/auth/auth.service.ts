@@ -31,7 +31,7 @@ export class AuthService
 
         //* Return only necessary user fields
         return {
-            _id: user._id,
+            // _id: user._id,
             username: user.username,
             roles: user.roles,
         };
@@ -45,7 +45,7 @@ export class AuthService
         //* Generate the JWT payload
         const payload = {
             username: validatedUser.username,
-            sub: validatedUser._id,
+            // sub: validatedUser._id,
             roles: validatedUser.roles,
         };
 
